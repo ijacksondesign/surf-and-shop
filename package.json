@@ -1,0 +1,29 @@
+{
+  "name": "surf-and-shop",
+  "version": "1.0.0",
+  "description": "Back end to an e-commerce website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ijacksondesign/surf-and-shop.git"
+  },
+  "author": "Ian Jackson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ijacksondesign/surf-and-shop/issues"
+  },
+  "homepage": "https://github.com/ijacksondesign/surf-and-shop#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
