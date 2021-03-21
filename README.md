@@ -12,7 +12,7 @@
 Database for an ecommerce website where you can GET, POST, PUT, and DELETE categories, products, and product ags.
 
 ![Surf & Shop](./screenshot/surf-and-shop.gif)
-[Click here to watch video]()
+[Click here to watch video](https://drive.google.com/file/d/1vcq1GVwYh8ZrvnE4QhO4F3URF0NBrJvY/view)
 
 ## The Challenge <a name="challenge"></a>
 AS A manager at an internet retail company I WANT a back end for my e-commerce website that uses the latest technologies SO THAT my company can compete with other e-commerce companies
@@ -33,13 +33,13 @@ GIVEN a functional Express.js API
 ## Installation <a name="install"></a>
 After cloning the code, use npm install to install dependecies. Create an .env file and paste the following code:
 
-DB_NAME='ecommerce_db'
-DB_USER=''
-DB_PW=''
+`DB_NAME='ecommerce_db'`
+`DB_USER=''`
+`DB_PW=''`
 
-Add your MySQL username and password and save. Open your MySQL command line and type "npm run start" to initalize the database and then type exit. After the database has been created and you exited, type "npm run seed" into the MySQL command line to populate the database.
+Add your MySQL username and password and save. Open your MySQL command line and type `"npm run start"` to initalize the database and then type exit. After the database has been created and you exited, type `"npm run seed"` into the MySQL command line to populate the database.
 
-Run "npm run start" again to restart the server. Open Insomnia Core and begin testing routes.
+Run `"npm run start"` again to restart the server. Open Insomnia Core and begin testing routes.
 
 ## Usage <a name="usage"></a>
 MIT License
